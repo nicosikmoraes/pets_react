@@ -1,7 +1,7 @@
-import { View, Text, TouchableOpacity } from "react-native";
-import React from "react";
-import { Stack, useRouter } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
+import { Stack, useRouter } from "expo-router";
+import React from "react";
+import { TouchableOpacity } from "react-native";
 
 export default function layout() {
   const router = useRouter();
@@ -16,7 +16,11 @@ export default function layout() {
         headerRight: () => (
           <TouchableOpacity
             style={{ marginRight: 15 }}
-            onPress={() => router.push("/")} // Vai para a rota principal
+            onPress={() => {
+              if(router.canDismiss()){
+                router.dismissAll()
+              }
+              router.replace("/")}} // Vai para a rota principal
           >
             <Ionicons name="home-outline" size={24} color="#fff" />
           </TouchableOpacity>

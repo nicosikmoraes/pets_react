@@ -1,6 +1,6 @@
-import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
-import React from "react";
 import { useActionSheet } from "@expo/react-native-action-sheet";
+import React from "react";
+import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 // Mapeamento de imagens locais
 const images: { [key: string]: any } = {
@@ -42,12 +42,7 @@ export default function Pets({ name, specie, url }: PetsProps) {
     <View style={styles.container}>
       <Image
         source={images[url]}
-        style={{
-          width: 300,
-          height: 300,
-          borderTopRightRadius: 12,
-          borderTopLeftRadius: 12,
-        }}
+        style={styles.img}
         resizeMode="cover"
       />
 
@@ -83,4 +78,10 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: "#474747ff",
   },
+  img: {
+    width: 300,
+    height: 300,
+    borderTopRightRadius: 12,
+    borderTopLeftRadius: 12,
+  }
 });
