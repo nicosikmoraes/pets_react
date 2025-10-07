@@ -4,19 +4,17 @@
 
 ### O adota Paraná é uma plataforma que facilita a adoção de animais domésticos, ele funciona com um feed que aparece para o usuário mostrando posts de pets que estão disponíveis para a adoção.
 
-
 ### Comandos para executar
 
-Clona o repositório `git clone https://github.com/nicosikmoraes/pets_react.git`
+Clona o repositório: `git clone https://github.com/nicosikmoraes/pets_react.git`
 
-Entrar no arquivo `cd pets_react`
+Entrar no arquivo: `cd pets_react`
 
-Instalar o LTS `nvm install lts`
+Instalar o LTS: `nvm install lts`
 
-Instalar as dependências `yarn install`
+Instalar as dependências: `yarn install`
 
-Inicializar a aplicação `yarn start`
-
+Inicializar a aplicação: `yarn start`
 
 ### Screenshots
 <img width="252" height="555" alt="image" src="https://github.com/user-attachments/assets/b1041f2a-eecc-47cd-913b-31d57b5efc1c" />
