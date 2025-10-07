@@ -4,6 +4,10 @@
 
 ### O adota Paraná é uma plataforma que facilita a adoção de animais domésticos, ele funciona com um feed que aparece para o usuário mostrando posts de pets que estão disponíveis para a adoção.
 
+### Comandos para executar
+
+Clona o repositório `git clone`
+
 ### Screenshots
 <img width="252" height="555" alt="image" src="https://github.com/user-attachments/assets/b1041f2a-eecc-47cd-913b-31d57b5efc1c" />
 <img width="252" height="555" alt="image" src="https://github.com/user-attachments/assets/e5e4ca47-ef31-47d5-9ad8-25d5c9a31615" />
